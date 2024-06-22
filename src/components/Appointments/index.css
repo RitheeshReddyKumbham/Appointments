@@ -1,0 +1,104 @@
+/* Write your CSS here */
+/* index.css */
+
+.main {
+  height: 100vh;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.appoint-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title,
+.date {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 250px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0277bd;
+}
+
+.app-img {
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.second-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.para {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.starred {
+  padding: 8px 16px;
+  background-color: #ffd700;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.starred:hover {
+  background-color: #ffc107;
+}
+
+.total-appoints {
+  list-style: none;
+  padding: 0;
+}
+
+.total-appoints li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-appoints li:hover {
+  background-color: #f0f0f0;
+}
